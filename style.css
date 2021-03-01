@@ -20,7 +20,7 @@ body
 .logo
 {
   position: relative;
-  top: 60px;
+  top: 20px;
   width: 30%;
 }
 /* Taille et position du logo */
@@ -33,17 +33,17 @@ body
 
 .rechercher span
 {    
-	background-color: #F2F2F2;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+  background-color: #F2F2F2;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }    
 
 .fa-map-marker-alt
 {
-	position: relative;
-	width: 30px;
-	margin-top: 15px;
-	margin-left: 15px;
+  position: relative;
+  width: 30px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 
 button
@@ -62,53 +62,55 @@ button
 
 input
 {
-	height: 43px;
-	width: 220px;
-	border-style: none;
+  height: 43px;
+  width: 220px;
+  border-style: none;
 }
 /*Zone de recherche */
-
 
 /*Barre de navigation */ 
 nav ul
 {
-	list-style-type:none;
-	display: flex;
-	justify-content: flex-start;
+  list-style-type:none;
+  display: flex;
+  justify-content: flex-start;
 }
 
 nav li
 {
-margin-right: 15px;
+  margin-right: 15px;
+  position: relative;
+  margin-top: 20px; 
 }
 
 nav a
 {
-	padding-bottom: 3px;
-	text-decoration: none;
-	
+  padding-bottom: 3px;
+  text-decoration: none;
 }
 
 .barre
 {
-	height: 2px;
-	width: 170px;
-	background-color: #0065FC;
-	margin-left: 20px;
+  height: 2px;
+  width: 170px;
+  background-color: #0065FC;
+  margin-left: 20px;
+  margin-top: -20px;
 }
 
 .nav
 {
-	display: flex;
-	justify-content: flex-end;
-	align-items: flex-start;
-    top: 50px;
-    font-size: 1.2em;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: relative;
+  margin-top: -40px;
+  font-size: 1.2em;
 }   
 
 .liens
 {
-	display: flex;
+  display: flex;
 }
 
 .inscrire
@@ -124,14 +126,13 @@ nav a
   margin-top: 50px; 
 }
 
-
 /*Position,animation des filtres */
 .filtres
 {
-	display: flex;
-	justify-content: flex-start;
-	margin-top: 30px;
-	font-size: 0.8em;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  font-size: 0.8em;
 }
 
 .filtres h2:hover
@@ -158,13 +159,13 @@ nav a
 
 h2 span:nth-child(1)
 {
-	animation-delay: .1s;
+  animation-delay: .1s;
 }
 
 .icones-fond:hover
 {
-background: linear-gradient(70deg, #33669c, #56a8ff);
-color: white;
+  background: linear-gradient(70deg, #33669c, #56a8ff);
+  color: white;
 }
 
 .icones-fond
@@ -192,78 +193,76 @@ color: white;
 }
 /*Position,animation des filtres */
 
-
 /*Info sur le nombre de logement */
 .info
 {   
-	display: flex;
-	justify-content: flex-start;
-	margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 
 .fa-info
 {   
-	margin-top: 5px;
- 	margin-right: 20px;
- 	color: #0065FC;
- 	border:solid 2px;
-	border-radius: 50%;
-	border-color:  #F2F2F2;
-	padding: 10px;
+  margin-top: 5px;
+  margin-right: 20px;
+  color: #0065FC;
+  border:solid 2px;
+  border-radius: 50%;
+  border-color:  #F2F2F2;
+  padding: 10px;
 }
 /*Info sur le nombre de logement */
 
 /*Contenue de la zone principale d'affichage de lieux d'hébergements */
 .combinaison
 {
-	display: flex;
+  display: flex;
 }
 
 .Hébergements-images a, .populaires-images a
 {
-   box-shadow: 3px 6px 15px #d9d9d9;
+  box-shadow: 3px 6px 15px #d9d9d9;
 }
 
 .combinaison p
 {
-	color: black;
+  color: black;
 }
 
 .Hébergements-titre
 {
-	display: flex;
-	justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .Hébergements-zone
 {
 
-	background-color: #F2F2F2;
-	border-radius: 20px;
-    margin-right: 30px;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  margin-right: 30px;
 }
 
 .Hébergements-zone img
 {
-
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	height: 120px;
-	width: 230px;
-	margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 120px;
+  width: 230px;
+  margin-top: 10px;
 }
 
 .Hébergements-images
 {
-	display: flex;
-	flex-wrap: wrap;
-	font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
 }
 
 h3
 {
-	font-size: 17px;
-	color: black;
+  font-size: 17px;
+  color: black;
 }	
 
 
@@ -271,7 +270,8 @@ h3
 {
   background-color: white;
   border-radius: 10px;
-  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin-left: 40px;
   text-decoration: none;
   display: block;
@@ -279,7 +279,7 @@ h3
 
 .mer,.panier, .amina
 {
-	margin-top: 40px;
+  margin-top: 40px;
 } 
 
 .afficher
@@ -290,51 +290,49 @@ h3
 
 .fa-star
 {
-	color:#0065FC;
+  color:#0065FC;
 }
 
 .unchecked
 {
-    color: #F2F2F2;
+  color: #F2F2F2;
 }
 
 .populaires-zone
 {
-    background-color: #F2F2F2;
-    font-size: 15px;
-    border-radius: 20px;
-    width: 800px;
+  background-color: #F2F2F2;
+  font-size: 15px;
+  border-radius: 20px;
+  width: 800px;
 }
 
 .populaires-zone img
 {
-	height: 110px;
-	width: 110px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
-	float: left;
+  height: 110px;
+  width: 110px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: left;
 }
-
 
 .populaires-titre
 {
-	display: flex;
-	justify-content: flex-start;
-	margin-left: 40px;
-	margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .fa-chart-line
 {
-    
-    margin-left: 40px; 
-    margin-top: 10px;
+  margin-left: 40px; 
+  margin-top: 10px;
 }
 
 #Hébergements
 {
-    margin-top: 30px;
-	margin-left: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
 }
 
 .populaires-images a
@@ -342,7 +340,7 @@ h3
   background-color: white;
   border-radius: 10px;
   width: 350px;
-  height: 120px;
+  height: 110px;
   margin-left:50px;
   text-decoration: none;
   display: block;
@@ -350,12 +348,12 @@ h3
 
 .Chambres-d-hôtes,.Bleu-Blanc
 {
-	margin-top: 80px;
+  margin-top: 80px;
 }
 
 h1,h2
 {
-    font-size: 1.5em;
+  font-size: 1.5em;
 }	
 /*Contenu de la zone principale d'affichage de lieux d'hébergements */
 
@@ -363,265 +361,326 @@ h1,h2
 
 #Activités
 {
-	margin-top: 90px;
+  margin-top: 90px;
 }
 
 .Activités-zone
 {
-	display: flex;
-	align-items: flex-end;
-	justify-content: space-between;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .Activités-zone a
 {
-	text-decoration: none;
-	display: block;
+  text-decoration: none;
+  display: block;
 }
 
 .Activités-zone img
 {
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 .deux-en-un img
 {    
-	object-fit: cover;
-	display: flex;
-	flex-direction: column;
-    
-	height: 100%;
-	width: 100%;
-	
-	max-height: 150px;
-	max-width: 270px;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  max-height: 150px;
+  max-width: 270px;
 }
 
 .premier
 {
-	margin-bottom: 49px;
-}
-
-.solo 
-{
-	overflow: hidden;
+  margin-bottom: 49px;
 }
 
 .solo img
 {   
-	object-fit: cover;
-	height: 400px;
-    width: 100%;
-
-    max-height: 400px;
-    max-width: 290px;
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  max-height: 400px;
+  max-width: 290px;
 }
 
 .lieux
 {
-	background-color: white;
-	border-radius: 10px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .lieux h3
 {
-	margin-left: 10px; 
-	height: 40px;
+  margin-left: 10px; 
+  height: 40px;
 }
 
 .lieux:hover, .Hébergements-images a:hover, .populaires-images a:hover, .icones:hover
 {
-	transform: scale(1.05);
+  transform: scale(1.05);
 }	
 
 .lieux
 {
-   box-shadow: 3px 6px 15px #d9d9d9;
+  box-shadow: 3px 6px 15px #d9d9d9;
 }
 
 /*Contenu de la zone d'activités */
 
 footer
 {
-	display: flex;
-	justify-content: space-around;
-	background-color: #F2F2F2;
-	border-radius: 10px;
-	font-size: 13px;
-	margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  font-size: 13px;
+  margin-top: 20px;
 }
-
 
 @media screen and (max-width:640px) /*Affichage sur smartphone */
 {
+  .bloc-page
+  {   
+    display: flex;
+	  flex-direction: column;
+	  width: 600px;
+	  margin: 0px;
+	  padding: 0px;
+  }  
+  
+  .en-tête
+  {
+    margin:0px;
+  }
 
-.bloc-page
-{   
-	display: flex;
-	flex-direction: column;
-	width: 600px;
-	margin: 0px;
-	padding: 0px;
-}  
+  .en-tête h1
+  {
+	  width: 90%;
+  }
 
-.en-tête
-{
-	margin:0px;
-}
+  .barre
+  {   
+	  position: absolute;
+	  margin-top: 110px;
+	  width: 270px;
+	  margin-left: -30px;
+  }
 
-
-.en-tête h1
-{
-	width: 90%;
-}
-
-.barre
-{   
-	position: absolute;
-	margin-top: 100px;
-	width: 270px;
-	margin-left: -30px;
-}
-
-.barre-2
-{   
-	position: absolute;
-	margin-top: 100px;
+  .barre-2
+  {   
+	  position: absolute;
+	  margin-top: 110px;
     background-color: #F2F2F2;
     width: 330px;
     height: 2px;
     margin-left: 240px;
-}
+  }
 
-.liens
-{	
-	margin-top: 50px;
-	margin-right: 99px;
-}
+  .liens
+  {	
+	  margin-top: 50px;
+	  margin-right: 99px;
+  }
+  
+  nav ul
+  {
+    position: relative;
+    margin-top: 0px;
+  }
 
+  .money, .famille, .coeur, .chien 
+  {
+	  display: flex;
+	  justify-content: flex-start;
+  }
 
-.money, .famille, .coeur, .chien 
-{
-	display: flex;
-	justify-content: flex-start;
-}
+  .money
+  {
+	  width: 20%;
+  }
 
-.money
-{
-	width: 20%;
-}
+  .combinaison
+  {
+	  display: flex;
+	  flex-direction: column-reverse;
+  }
 
-.combinaison
-{
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.Hébergements-zone
-{
+  .Hébergements-zone
+  {
     background-color: white;
-}
+  }
 
-.Hébergements-images
-{
+  .Hébergements-images
+  {
     display: flex;
     flex-direction: column;
-}
+  }
 
-.Hébergements-images img
-{
-	object-fit: cover;
-	
-	max-width: 350px;
-	max-height:150px;
-	
-	height: 100%;
-	width: 100%; 
-}
+  .Hébergements-images img
+  {
+	  object-fit: cover;
+	  max-width: 500px;
+	  max-height:200px;
+	  height: 100%;
+	  width: 100%; 
+  }
 
-.Hébergements-images a
-{
-	width: 360px;
-}
+  .Hébergements-images a
+  {
+	  width: 500px;
+  }
 
-.Chambres-d-hôtes,.Bleu-Blanc
-{
-	margin: 0;
-}
+  .Chambres-d-hôtes,.Bleu-Blanc
+  {
+	  margin: 0;
+  }
 
-.populaires-zone
-{
-  width: 580px;
-  height: 550px;
-}
+  .populaires-zone
+  {
+    width: 590px;
+    height: 550px;
+  }
 
-.populaires-images a
-{
-	width: 450px;
-}
+  .populaires-images a
+  {
+	  width: 450px;
+    height: 130px;  
+  }
+  
+  .Chambres-d-hôtes,.Bleu-Blanc
+  {
+    margin-top: 15px;
+  }
 
-.filtres
-{
-	display: flex;
-	flex-direction: column;
-}
+  .populaires-images img
+  {
+    object-fit: cover;
+    max-width: 130px;
+    max-height:130px;
+    height: 100%;
+    width: 100%; 
+    margin-right: 15px;
+  }
+   
+  .filtres
+  {
+	  display: flex;
+	  flex-direction: column;
+  }
 
-.famille, .coeur, .chien
-{
+  .famille, .coeur, .chien
+  {
     margin-top: 10px;
-}
+  }
 
-.famille
-{
-	margin-top: -70px;
-	margin-left: 170px; 
-}
+  .famille
+  {
+	  margin-top: -70px;
+	  margin-left: 170px; 
+  }
 
-.money, .coeur, .chien
-{
-	position: relative;
+  .money, .coeur, .chien
+  {
+	  position: relative;
     margin-left: -50px;
-}
+  } 
 
-.mouettes,.port
-{
-	margin-top: 40px;
-}
+  .mouettes,.port
+  {
+	  margin-top: 40px;
+  }
 
-.Activités-zone
-{
+  .Activités-zone
+  {
     display: flex;
     flex-direction: column; 
     align-items: flex-start;
-}
+  }
 
-.Activités-zone img
-{
-    max-width: 400px;
-	max-height:170px;
-	height: 100%;
-	width: 100%; 
-}
+  .Activités-zone img
+  {
+    max-width: 500px;
+	  max-height:200px;
+	  height: 100%;
+	  width: 100%; 
+  }
+  
+  .Activités-zone a
+  {
+    margin-left: 50px; 
+  }
+  
+  #Activités 
+  {
+    position: relative;
+    margin-left: 50px;
+  }
+  .premier
+  {
+	  margin-bottom: 0;
+  }
 
-.premier
-{
-	margin-bottom: 0;
-}
+  .deux-en-un, .solo
+  {
+	  margin-top: 10px;
+  }
 
-.deux-en-un, .solo
-{
-	margin-top: 10px;
-}
-
-
-footer
-{
+  footer
+  {
     display: flex;
     flex-direction: column;
     padding: 30px;
-    width: 520px;
+    width: 530px;
+  }
 }
 
+@media screen (min-width:770px) and (max-width:1024px) /*Affichage sur tablette */
+{
+  .bloc-page
+  {
+    width: 1000px;
+  }
 
+  .money, .famille, .coeur, .chien
+  {
+    margin-left: -35px;
+  } 
+  
+  .mouettes
+  {
+    margin-top: 40px;
+  }
+
+  .Hébergements-zone img
+  {
+    width: 210px;
+  }
+
+  .populaires-images a
+  {
+    margin-right: 30px;
+    height: 180px;
+  }
+
+  .populaires-images img
+  {
+    object-fit: cover;
+    max-width: 150px;
+    max-height: 180px;
+    height: 100%;
+    width: 100%; 
+    margin-right: 10px;
+  }
+  
+  .Activités-zone img
+  {
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+  }
+  
 }
-
